@@ -1,0 +1,33 @@
+window + R :- Open run and Type cmd for command prompt
+
+clear screen :- cls
+
+Move in drive (eg- c,d,e,f drive) :- f: ,  d:  , e:  
+
+Create directory :-  mkdir Folder_name/directory_name
+
+Remove directory :- rmdir Folder-name
+
+Rename directory :- ren current_folder_Name  New_folder_name
+
+how to change directory :-  cd Folder/directory_name
+
+how to get back in directory (one step) :- cd..
+
+how to get back in directory (multiple step) :- cd ../../..
+
+
+How to see the directory in drive :- 'dir'
+
+Note :- 1. For suggestion use: 'tab' key  2. Use up/down Arrow_key for previous command
+
+How to open VS Code :-  " code . "
+
+
+
+How to create file :- echo.> filename.extension
+
+delete file :- del filname.extension
+
+rename file :- ren older_filename.extension  Newer_filename.extension
+

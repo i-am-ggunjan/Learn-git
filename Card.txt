@@ -1,0 +1,33 @@
+import React, { Component } from "react";
+
+export class Card extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <>
+        <section className="px-[20vw] m-4">
+          <article className="flex flex-col justify-center items-center gap-2 border-2 border-teal-700 py-5">
+            <main className="flex justify-between items-center gap-14 text-center py-2">
+              <div className="border-2 border-pink-200">
+                <div className="">{this.props.company}</div>
+                <div>{this.props.website}</div>
+              </div>
+              <div className="border-2 border-pink-200">
+                <div className="">{this.props.phone}</div>
+                <div>{this.props.city}</div>
+              </div>
+            </main>
+            <div>{this.props.name}</div>
+            <div>{this.props.username}</div>
+            <div>{this.props.email}</div>
+          </article>
+        </section>
+      </>
+    );
+  }
+}
+
+export default Card;
